@@ -52,8 +52,7 @@ export function getHours(time) {
 }
 
 export function getMinutes(time) {
-  const minutes = time.getMinutes();
-  // }
+  let minutes = time.getMinutes();
   if (minutes < 10) {
     minutes = `0${minutes}`;
   }

@@ -1,0 +1,61 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.weather-inner {
+  max-width: 600px;
+  margin: 0 auto;
+  .container {
+    .current-day {
+      background-color: rgb(107, 151, 202);
+      color: #fff;
+      font-size: 24px;
+      padding: 20px 15px;
+      .current-day-data {
+        margin-bottom: 20px;
+        .current-day-city {
+          margin-bottom: 10px;
+        }
+      }
+      .current-day-weather {
+        margin-bottom: 15px;
+        text-align: center;
+        .current-day-precipitation {
+          margin-bottom: 10px;
+        }
+      }
+      .current-day-wind {
+        display: flex;
+        justify-content: space-between;
+        .current-day-speed {
+          padding-left: 30px;
+        }
+        .current-day-value {
+          padding-right: 30px;
+        }
+      }
+    }
+    .weather-future {
+      .next-day {
+        font-size: 20px;
+        .day {
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          border: 2px solid rgb(107, 151, 202);
+          border-top: none;
+          padding: 20px 30px;
+        }
+        // .next-day-date {
+        //   .next-day-day {
+        //   }
+        //   .next-day-time {
+        //   }
+        // }
+        // .next-day-temperature {
+        // }
+      }
+    }
+  }
+}
